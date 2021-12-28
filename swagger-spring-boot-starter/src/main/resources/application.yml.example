@@ -1,0 +1,51 @@
+knife4j:
+  swagger:
+    parameters:
+      - name: test
+        parameterType: query
+        defaultValue: bbb
+        description: test
+        scalarType: string
+    default-properties:
+      contact-email: lhstack@formail.com
+      contact-name: lhstack
+      contact-url: https://gitee.com/myprofile
+      title: test
+      group: test
+      version: 0.0.1
+      base-package: com.example.demo.controller.c1
+      parameters:
+        - name: test1
+          parameterType: header
+          defaultValue: aaa
+          description: test1
+          scalarType: string
+      document-type: oas_30
+#      ignored-parameter-types:
+#      - javax.servlet.http.HttpSession
+#      - javax.servlet.http.HttpServletRequest
+#      - javax.servlet.http.HttpServletResponse
+    properties:
+      - contact-email: lhstack@formail.com1
+        contact-name: lhstack1
+        contact-url: https://gitee.com/myprofile1
+        base-package: com.example.demo.controller.c2
+        group: test1
+        title: test1
+        version: 0.0.11
+        document-type: swagger_2
+#        ignored-parameter-types:
+#        - javax.servlet.http.HttpSession
+#        - javax.servlet.http.HttpServletRequest
+#        - javax.servlet.http.HttpServletResponse
+        parameters:
+          - name: test2
+            parameterType: header
+            defaultValue: 123
+            description: test2
+            scalarType: uuid
+  enable: true
+  basic:
+    enable: true
+    username: admin1
+    password: 12345

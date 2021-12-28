@@ -1,0 +1,161 @@
+{
+  "groups": [
+    {
+      "name": "knife4j.swagger",
+      "type": "com.lhstack.swagger.properties.SwaggerProperties",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties",
+      "type": "com.lhstack.swagger.properties.SwaggerProperties$Properties",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties",
+      "sourceMethod": "getDefaultProperties()"
+    },
+    {
+      "name": "knife4j.swagger.parameters",
+      "type": "java.util.List",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties",
+      "sourceMethod": "getParameters()"
+    },
+    {
+      "name": "knife4j.swagger.properties",
+      "type": "java.util.Set",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties",
+      "sourceMethod": "getProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "knife4j.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用文档",
+      "sourceType": "java.lang.Boolean"
+    },
+    {
+      "name": "knife4j.basic.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启basic认证",
+      "sourceType": "java.lang.Boolean"
+    },
+    {
+      "name": "knife4j.basic.username",
+      "type": "java.lang.String",
+      "description": "basic认证用户名,默认admin",
+      "sourceType": "java.lang.String"
+    },
+    {
+      "name": "knife4j.basic.password",
+      "type": "java.lang.String",
+      "description": "basic认证密码,默认123456",
+      "sourceType": "java.lang.String"
+    },
+    {
+      "name": "knife4j.swagger.properties",
+      "type": "java.util.Set<com.lhstack.swagger.properties.SwaggerProperties$Properties>",
+      "description": "多文档情况下使用,如一个项目多个业务,参考default-properties配置即可",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.parameters",
+      "type": "java.util.List<com.lhstack.swagger.properties.SwaggerProperties$Parameter>",
+      "description": "全局参数定义,用于所有文档",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Parameter"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.base-package",
+      "type": "java.lang.String",
+      "description": "api接口包地址",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.contact-email",
+      "type": "java.lang.String",
+      "description": "联系人邮箱",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.contact-name",
+      "type": "java.lang.String",
+      "description": "联系人名称",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.contact-url",
+      "type": "java.lang.String",
+      "description": "联系人网站",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.description",
+      "type": "java.lang.String",
+      "description": "说明",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.document-type",
+      "type": "com.lhstack.swagger.properties.SwaggerProperties$DocumentType",
+      "description": "文档版本",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.group",
+      "type": "java.lang.String",
+      "description": "文档分组",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.ignored-parameter-types",
+      "type": "java.util.Set<java.lang.Class<?>>",
+      "description": "忽略的class类型",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.license-url",
+      "type": "java.lang.String",
+      "description": "许可证地址",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.parameters",
+      "type": "java.util.List<com.lhstack.swagger.properties.SwaggerProperties$Parameter>",
+      "description": "全局参数配置",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.tags",
+      "type": "java.util.List<io.swagger.models.Tag>",
+      "description": "标签",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.terms-of-service-url",
+      "type": "java.lang.String",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.title",
+      "type": "java.lang.String",
+      "description": "标题",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    },
+    {
+      "name": "knife4j.swagger.default-properties.version",
+      "type": "java.lang.String",
+      "description": "项目版本",
+      "sourceType": "com.lhstack.swagger.properties.SwaggerProperties$Properties"
+    }
+  ],
+  "hints": []
+}

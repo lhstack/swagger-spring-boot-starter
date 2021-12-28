@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lhstack.swagger.autoconfig.OpenApiAutoConfiguration,\
+  com.lhstack.swagger.autoconfig.SwaggerWebFluxAutoConfiguration,com.lhstack.swagger.autoconfig.SwaggerWebMvcAutoConfiguration,\
+  com.lhstack.swagger.autoconfig.Swagger2AutoConfiguration
